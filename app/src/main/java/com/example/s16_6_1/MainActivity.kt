@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
                     "電腦勝利"
                 }
             }
-            val intent = Intent(this, s16_6::class.java)
+            val intent = Intent(this, MainActivity2::class.java)
             intent.putExtra("nowin", nowin)
             intent.putExtra("win", win)
             intent.putExtra("iwin", iwin)
